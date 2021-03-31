@@ -70,6 +70,12 @@ body {
   border: 1px solid rgb(218, 247, 166);
 }
 
+.country-list {
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .country-list-item {
   font-size: 20px;
 }
@@ -110,4 +116,60 @@ img {
 
 .country-key {
   font-weight: 700;
+}
+
+.pnotify {
+  width: 360px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.pnotify-container {
+  display: flex;
+  justify-content: center;
+}
+
+.error-message {
+  text-align: center;
+}
+
+.error-notification {
+  text-align: center;
+  border: 2px solid rgba(255, 75, 75, 0.534);
+
+  width: 400px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: auto;
+  margin-left: auto;
+
+  background-image: repeating-linear-gradient(
+    to bottom right,
+    #ff6b6b81,
+    #ff6b6b81 15px,
+    #ffb8b88a 15px,
+    #ffb8b88a 25px
+  );
+}
+
+.pnotify-closer {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.pnotify-sticker {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
 }
